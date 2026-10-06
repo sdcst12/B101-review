@@ -13,3 +13,9 @@ Your program should ask the user for
 * The program will calculate the amount of interest earned and display it.
 * Appropriate formatting of the output is a requirement for this assignment
 """
+P = input("Money Invested: $")
+r = input("Annual intrest rate (Don't include the percent sign): ")
+t = input("Number of years: ")
+
+print("")
+print(f"Total intrest is: ${P*(r/100)*t}")

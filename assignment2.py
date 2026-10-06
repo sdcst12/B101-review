@@ -23,3 +23,15 @@ final balance: 1320.68
 
 """
 
+P = int(input("Money Invested Annually: $"))
+r = int(input("Annual intrest rate (Don't include the percent sign): "))
+t = int(input("Number of years: "))
+x=0
+total=0
+
+while x!=t:
+    total=total+P
+    total=total+total*(r/100)
+    total=round(total, 2)
+    x=x+1
+print (f"Final balance: ${total}")
